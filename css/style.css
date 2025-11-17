@@ -104,6 +104,98 @@ body {
   text-decoration: none;
 }
 
+.recent-posts {
+  background-color: #edf7fa;
+  padding-top: 20px;
+  padding-bottom: 38px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.recent-posts__top {
+  max-width: 855px;
+  margin: 0 auto;
+}
+
+.recent-posts__link {
+  display: none;
+}
+
+.recent-posts__title {
+  font-weight: 400;
+  font-size: 18px;
+  color: #21243d;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 22px;
+}
+
+.recent-posts__container {
+  padding: 0 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+}
+
+.recent-posts__card {
+  background-color: #fff;
+  padding: 12px 8px 22px 17px;
+  border-radius: 4px;
+}
+
+.recent-posts__card-title {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 136%;
+  color: #21243d;
+  margin: 0;
+  margin-bottom: 12px;
+}
+
+.recent-posts__card-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.recent-posts__card-details {
+  display: flex;
+  font-weight: 400;
+  font-size: 16px;
+  color: #21243d;
+  margin: 0;
+  margin-bottom: 19px;
+}
+
+.recent-posts__card-details-item {
+  margin-right: 24px;
+}
+
+.recent-posts__card-item-category {
+  margin-right: 0;
+}
+
+.recent-posts__card-item-category:first-child::before {
+  content: "";
+}
+
+.recent-posts__card-item-category::before {
+  content: "\00A0";
+}
+
+.recent-posts__card-item-category::after {
+  content: ",";
+}
+
+.recent-posts__card-item-category:last-child::after {
+  content: "";
+}
+
+.recent-posts__card-excerpt {
+  font-weight: 400;
+  font-size: 16px;
+  color: #21243d;
+}
+
 @media screen and (min-width: 768px) {
   .header {
     max-width: 1000px;
@@ -152,5 +244,31 @@ body {
 
   .hero__title {
     font-size: 44px;
+  }
+
+  .recent-posts__top {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .recent-posts__link {
+    display: block;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: right;
+    color: #00a8cc;
+    text-decoration: none;
+  }
+
+  .recent-posts__container {
+    justify-content: space-between;
+    flex-direction: row;
+    max-width: 855px;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .recent-posts__card-title {
+    font-size: 26px;
   }
 }
