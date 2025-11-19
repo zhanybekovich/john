@@ -275,6 +275,37 @@ body {
   margin-bottom: 17px;
 }
 
+.footer {
+  padding: 55px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.socials {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 35px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 26px;
+}
+
+.socials__item svg {
+  width: 30px;
+  height: 30px;
+}
+
+.footer__copyright {
+  font-size: 14px;
+  text-align: center;
+  color: #21243d;
+}
+
 @media screen and (min-width: 768px) {
   .header {
     max-width: 1000px;
