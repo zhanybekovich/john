@@ -52,6 +52,10 @@ body {
   text-decoration: none;
 }
 
+.header__menu-link.active {
+  color: #ff6464;
+}
+
 .hero {
   padding-top: 33px;
   padding-bottom: 58px;
@@ -304,6 +308,30 @@ body {
   font-size: 14px;
   text-align: center;
   color: #21243d;
+}
+
+.blog {
+  max-width: 860px;
+  margin: 0 auto;
+  padding-top: 40px;
+  padding-bottom: 55px;
+  padding-right: 18px;
+  padding-left: 18px;
+}
+
+.blog__title {
+  font-weight: 700;
+  font-size: 30px;
+  color: #21243d;
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+.blog__post-card {
+  padding: 0;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #e0e0e0;
+  margin-bottom: 18px;
 }
 
 @media screen and (min-width: 768px) {
