@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>John Creative Technologist</title>
+    <title>Works</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -30,7 +30,7 @@
       <nav class="header__nav">
         <ul class="header__menu">
           <li class="header__menu-item">
-            <a href="./works.html" class="header__menu-link">Works</a>
+            <a href="./works.html" class="header__menu-link active">Works</a>
           </li>
           <li class="header__menu-item">
             <a href="./blog.html" class="header__menu-link">Blog</a>
@@ -43,147 +43,94 @@
     </header>
 
     <main>
-      <section class="hero">
-        <div class="hero__img-wrapper">
-          <img src="./images/hero.jpg" alt="John" class="hero__img" />
-        </div>
-        <div class="hero__text">
-          <h1 class="hero__title">Hi, I am John, Creative Technologist</h1>
-          <p class="hero__description">
-            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-            sint. Velit officia consequat duis enim velit mollit. Exercitation
-            veniam consequat sunt nostrud amet.
-          </p>
-          <a href="./Resume.txt" class="hero__btn" download>Download Resume</a>
-        </div>
-      </section>
-
-      <section class="recent-posts">
-        <div class="recent-posts__top">
-          <h2 class="recent-posts__title">Recent posts</h2>
-          <a href="#" class="recent-posts__link">View all</a>
-        </div>
-        <div class="recent-posts__container">
-          <div class="recent-posts__card">
-            <h3 class="recent-posts__card-title">
-              <a class="recent-posts__card-link" href="#"
-                >Making a design system from scratch</a
-              >
-            </h3>
-            <p class="recent-posts__card-details">
-              <span class="recent-posts__card-details-item">12 Feb 2020</span>
-              <span class="recent-posts__card-details-item">|</span>
-              <span
-                class="recent-posts__card-details-item recent-posts__card-item-category"
-                >Design</span
-              >
-              <span
-                class="recent-posts__card-details-item recent-posts__card-item-category"
-                >Pattern</span
-              >
-            </p>
-            <p class="recent-posts__card-excerpt">
-              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-              amet sint. Velit officia consequat duis enim velit mollit.
-              Exercitation veniam consequat sunt nostrud amet.
-            </p>
+      <section class="works">
+        <h2 class="works__title">Works</h2>
+        <div class="work-card">
+          <div class="work-card__img-wrapper">
+            <img
+              src="./images/work-1.jpg"
+              alt="Work-1"
+              class="work-card__img"
+            />
           </div>
-          <div class="recent-posts__card">
-            <h3 class="recent-posts__card-title">
-              <a class="recent-posts__card-link" href="#">
-                Creating pixel perfect icons in Figma
-              </a>
+          <div class="work-card__text">
+            <h3 class="work-card__title">
+              <a href="./single-work.html" class="work-card__link"
+                >Designing Dashboards</a
+              >
             </h3>
-            <p class="recent-posts__card-details">
-              <span class="recent-posts__card-details-item">12 Feb 2020</span>
-              <span class="recent-posts__card-details-item">|</span>
-              <span
-                class="recent-posts__card-details-item recent-posts__card-item-category"
-                >Design</span
-              >
-              <span
-                class="recent-posts__card-details-item recent-posts__card-item-category"
-                >Icon Design</span
-              >
+            <p class="work-card__details">
+              <span class="work-card__year">2020</span>
+              <a href="#" class="work-card__category">Dashboard</a>
             </p>
-            <p class="recent-posts__card-excerpt">
+            <p class="work-card__descr">
               Amet minim mollit non deserunt ullamco est sit aliqua dolor do
               amet sint. Velit officia consequat duis enim velit mollit.
               Exercitation veniam consequat sunt nostrud amet.
             </p>
           </div>
         </div>
-      </section>
-
-      <section class="featured-works">
-        <h2 class="featured-works__title">Featured works</h2>
-        <div class="featured-works__wrapper">
-          <div class="work-card">
-            <div class="work-card__img-wrapper">
-              <img
-                src="./images/work-1.jpg"
-                alt="Work-1"
-                class="work-card__img"
-              />
-            </div>
-            <div class="work-card__text">
-              <h3 class="work-card__title">
-                <a href="./single-work.html" class="work-card__link">
-                  Designing Dashboards</a
-                >
-              </h3>
-              <p class="work-card__details">
-                <span class="work-card__year">2020</span>
-                <a href="#" class="work-card__category">Dashboard</a>
-              </p>
-              <p class="work-card__descr">
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                amet sint. Velit officia consequat duis enim velit mollit.
-                Exercitation veniam consequat sunt nostrud amet.
-              </p>
-            </div>
+        <div class="work-card">
+          <div class="work-card__img-wrapper">
+            <img
+              src="./images/work-1.jpg"
+              alt="Work-1"
+              class="work-card__img"
+            />
           </div>
-          <div class="work-card">
-            <div class="work-card__img-wrapper">
-              <img
-                src="./images/work-2.jpg"
-                alt="Work-1"
-                class="work-card__img"
-              />
-            </div>
-            <div class="work-card__text">
-              <h3 class="work-card__title">Vibrant Portraits of 2020</h3>
-              <p class="work-card__details">
-                <span class="work-card__year">2018</span>
-                <a href="#" class="work-card__category">Illustration</a>
-              </p>
-              <p class="work-card__descr">
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                amet sint. Velit officia consequat duis enim velit mollit.
-                Exercitation veniam consequat sunt nostrud amet.
-              </p>
-            </div>
+          <div class="work-card__text">
+            <h3 class="work-card__title">Designing Dashboards</h3>
+            <p class="work-card__details">
+              <span class="work-card__year">2020</span>
+              <a href="#" class="work-card__category">Dashboard</a>
+            </p>
+            <p class="work-card__descr">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim velit mollit.
+              Exercitation veniam consequat sunt nostrud amet.
+            </p>
           </div>
-          <div class="work-card">
-            <div class="work-card__img-wrapper">
-              <img
-                src="./images/work-3.jpg"
-                alt="Work-1"
-                class="work-card__img"
-              />
-            </div>
-            <div class="work-card__text">
-              <h3 class="work-card__title">36 Days of Malayalam type</h3>
-              <p class="work-card__details">
-                <span class="work-card__year">2018</span>
-                <a href="#" class="work-card__category">Typography</a>
-              </p>
-              <p class="work-card__descr">
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                amet sint. Velit officia consequat duis enim velit mollit.
-                Exercitation veniam consequat sunt nostrud amet.
-              </p>
-            </div>
+        </div>
+        <div class="work-card">
+          <div class="work-card__img-wrapper">
+            <img
+              src="./images/work-1.jpg"
+              alt="Work-1"
+              class="work-card__img"
+            />
+          </div>
+          <div class="work-card__text">
+            <h3 class="work-card__title">Designing Dashboards</h3>
+            <p class="work-card__details">
+              <span class="work-card__year">2020</span>
+              <a href="#" class="work-card__category">Dashboard</a>
+            </p>
+            <p class="work-card__descr">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim velit mollit.
+              Exercitation veniam consequat sunt nostrud amet.
+            </p>
+          </div>
+        </div>
+        <div class="work-card">
+          <div class="work-card__img-wrapper">
+            <img
+              src="./images/work-1.jpg"
+              alt="Work-1"
+              class="work-card__img"
+            />
+          </div>
+          <div class="work-card__text">
+            <h3 class="work-card__title">Designing Dashboards</h3>
+            <p class="work-card__details">
+              <span class="work-card__year">2020</span>
+              <a href="#" class="work-card__category">Dashboard</a>
+            </p>
+            <p class="work-card__descr">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim velit mollit.
+              Exercitation veniam consequat sunt nostrud amet.
+            </p>
           </div>
         </div>
       </section>
@@ -266,7 +213,6 @@
       </ul>
       <p class="footer__copyright">Copyright &copy; 2025 All rights reserved</p>
     </footer>
-
     <script src="./js/script.js"></script>
   </body>
 </html>
